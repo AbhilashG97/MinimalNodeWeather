@@ -1,22 +1,22 @@
 # MinimalNodeWeather
 
-A simple, minimalistic weather app made with NodeJs. 
+A simple, minimalistic weather app made with Node.js
 
-This repo is open for PRs. 
+:boom: This repo is open for **Hacktoberfest 2020** PRs.
 
 ## :computer: How to run the project
 
-1. Install [NodeJS](https://nodejs.org/en/download/). 
+1. Install [Node.js](https://nodejs.org/en/download/)
 1. Install [yarn](https://www.npmjs.com/package/yarn).
 1. Install [nodemon](https://www.npmjs.com/package/nodemon).
-1. Type ```yarn install``` to install all node modules.
+1. Type `yarn install` to install all node modules.
 1. Sign-up [here](https://weatherstack.com/) and [here](https://www.mapbox.com/). Get the access keys after registering and creating a new project in those sites.
-1. Add those access keys [here](/src/utils/properties.js).
-1. Type ```nodemon -e js,hbs``` in the root of the project to start the server.
-1. Open ```localhost:3000```.
+1. Get those access keys and add them [here](/src/utils/properties.js).
+1. Type `nodemon -e js,hbs` in the root of the project to start the server.
+1. Open `localhost:3000`.
 
 ## :file_folder: Project Structure
 
 <p align="center"><img src =".github/images/dir_tree.png" /></p>
 
-The client side files can be found in the ```public``` folder. This node project uses [handlebars](https://www.npmjs.com/package/handlebars) for views.
+The client side files can be found in the `public` folder. This node project uses [handlebars](https://www.npmjs.com/package/handlebars) for views.

@@ -10,6 +10,8 @@ This repo is open for PRs.
 1. Install [yarn](https://www.npmjs.com/package/yarn).
 1. Install [nodemon](https://www.npmjs.com/package/nodemon).
 1. Type ```yarn install``` to install all node modules.
+1. Sign-up [here](https://weatherstack.com/) and [here](https://www.mapbox.com/). Get the access keys after registering and creating a new project in those sites.
+1. Add those access keys [here](/src/utils/properties.js).
 1. Type ```nodemon -e js,hbs``` in the root of the project to start the server.
 1. Open ```localhost:3000```.
 

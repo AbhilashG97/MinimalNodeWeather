@@ -37,8 +37,18 @@ body {
 footer {
   color: #888888;
   border-top: 1px solid #eeeeee;
+  top: 18px;
+  width: 500px;
 }
 
+footer img{
+  float: left;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: #555;
+
+}
 input {
   border: 1px solid #cccccc;
   padding: 8px;
